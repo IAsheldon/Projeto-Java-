@@ -1,0 +1,18 @@
+{
+    "configurations": [
+      {
+        "type": "java",
+        "request": "launch",
+        "name": "Launch Main Class",
+        "mainClass": "${input:mainClass}",
+        "cwd": "${workspaceFolder}"
+      }
+    ],
+    "inputs": [
+      {
+        "type": "promptString",
+        "id": "mainClass",
+        "description": "Enter the fully qualified name of the main class to launch (e.g., Main)"
+      }
+    ]
+  }
